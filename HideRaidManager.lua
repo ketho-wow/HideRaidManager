@@ -18,12 +18,15 @@ manager:HookScript("OnLeave", function(self)
 		self:SetAlpha(0)
 	end
 end)
-
-manager.toggleButton:HookScript("OnClick", function()
+-- pick buttton between classic/retail
+local button = manager.toggleButtonBack or manager.toggleButton
+button:HookScript("OnClick", function()
 	if manager.collapsed then
 		manager:SetAlpha(0)
 	end
 end)
--- keep the container frame visible
-manager.container:SetIgnoreParentAlpha(true)
-manager.containerResizeFrame:SetIgnoreParentAlpha(true)
+
+if manager.containerResizeFrame then
+	-- not in retail
+	manager.containerResizeFrame:SetIgnoreParentAlpha(true)
+end
