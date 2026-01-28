@@ -1,5 +1,6 @@
 local manager = CompactRaidFrameManager
 manager:SetAlpha(0)
+
 -- look through a frame's parents
 local function FindParent(frame, target)
 	if frame == target then
@@ -18,6 +19,7 @@ manager:HookScript("OnLeave", function(self)
 		self:SetAlpha(0)
 	end
 end)
+
 -- pick buttton between classic/retail
 local button = manager.toggleButtonBack or manager.toggleButton
 button:HookScript("OnClick", function()

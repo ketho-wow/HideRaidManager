@@ -1,11 +1,13 @@
-## Interface: 110200, 50500, 11507
+## Interface: 120001, 120000, 50503, 20505, 11508
 ## Version: @project-version@
 ## Title: HideRaidManager
 ## Notes: Only shows the Raid Manager on mouseover
 ## Author: Ketho @ EU-Boulderfist
 ## Dependencies: Blizzard_CompactRaidFrames
+## IconTexture: Interface\Icons\inv_pet_broom
 ## X-Curse-Project-ID: 342832
 ## X-WoWI-ID: 24951
+## X-Wago-ID: QKy9B4K7
 
 ## Category: Unit Frames
 ## Category-deDE: Einheitenfenster
@@ -13,7 +15,7 @@
 ## Category-esMX: Marcos de unidades
 ## Category-frFR: Portraits d'unités
 ## Category-itIT: Riquadri delle unità
-## Category-koKR: 개체창
+## Category-koKR: 유닛프레임
 ## Category-ptBR: Quadros de unidade
 ## Category-ruRU: Рамки юнитов
 ## Category-zhCN: 单位框体
